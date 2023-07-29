@@ -31,7 +31,7 @@ class BankCardTest {
         $$("[class='menu-item__control']").find(exactText("Санкт-Петербург")).click();
         $("input[placeholder='Дата встречи']").sendKeys(deleteString);
         $("input[placeholder='Дата встречи']").setValue(str_date);
-        form.$("input[name='name']").setValue("Регина Фаритова");
+        form.$("input[name='name']").setValue("Regina Faritova");
         form.$("input[name='phone']").setValue("+79117790793");
         form.$("span[class='checkbox__box']").click();
         form.$("button[class='button button_view_extra button_size_m button_theme_alfa-on-white']").click();
